@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="wrapper"> 
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+
+      <!-- beginning of card -->
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+
+        <!-- text body where password shows up -->
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+ 
+        <!-- section where you can choose password criteria (first password length)-->
+        <div class="choices">
+            <div class="choice">
+                <label for="length">Password Length</label>
+                <input type="number" id="length" min="8" max="128" />
+            </div>
+            
+            <!-- checkbox to include lowercase letters -->
+            <div class="choice">
+                <label for="lowercase">Lowercase Letters</label>
+                <input type="checkbox" id="lowercase" unchecked />
+            </div>
+
+            <!-- checkbox to include uppercase letters -->
+            <div class="choice">
+                <label for="uppercase">Uppercase Letters</label>
+                <input type="checkbox" id="uppercase" unchecked />
+            </div>
+
+            <!-- checkbox to include numbers-->
+            <div class="choice">
+                <label for="numbers">Numbers</label>
+                <input type="checkbox" id="numbers" unchecked />
+            </div>
+
+            <!-- checkbox to include special characters -->
+            <div class="choice">
+                <label for="special-characters">Special Characters</label>
+                <input type="checkbox" id="special-characters" unchecked />
+            </div>
+        </div>
+
+        <!-- submit button -->
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
