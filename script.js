@@ -1,18 +1,24 @@
-// get password length
-let passwordLength = prompt("enter a length for the password");
-console.log(passwordLength);
+//generate random password ********can generate random password based on length****
+function generate(){
 
-// get uppercase, lowercase, number, special
+    //set password length/complexity
+    let passwordLength = document.getElementById("length").value;
+    // let passwordLowercase = document.getElementById("lowercase").checked;
+    
 
-// validate input - use conditional
-if (choicesMake){
-    generatePassword
-} else{
-    console.log("Please select some character")
+    //possible password values
+    let values = "ABCDEFGHIJKLMNOPQRSTUVWZYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+";
+    // let values1 = "abcdefghijklmnopqrstuvwxyz";
+    // let values2 = "0123456789"
+    
+    let password = "";
+
+    //create for loop to choose password characters
+    for(var i = 0; i <= passwordLength; i++){
+        password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)))
+    }
+
+    document.getElementById("display").value = password;
+
 }
 
-
-// generate password
-//get the charactersets
-//randomly select charactersto make a password
-// display password
