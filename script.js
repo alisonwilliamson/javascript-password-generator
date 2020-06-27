@@ -17,6 +17,11 @@ function generate(){
     for(var i = 0; i <= passwordLength; i++){
         password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)))
     }
+    
+
+    // for(var i = 0; i <= passwordLength + passwordLowercase; i++){
+    //     password = password + values1.charAt(Math.floor(Math.random() * Math.floor(values1.length - 1)))
+    // }
 
     document.getElementById("display").value = password;
 
