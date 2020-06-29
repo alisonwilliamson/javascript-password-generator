@@ -37,6 +37,7 @@ function generatePassword() {
         passwordEl = "You must select at least one character type.";
     }
 
+
     // if password string is not empty it randomly selects characters from the 
     // string to be displayed based on the length the user entered
     else {

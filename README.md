@@ -12,3 +12,8 @@ When the generate password button is clicked a random password is generated base
 Here is the link to the working site. 
 https://alisonwilliamson.github.io/javascript-password-generator/
 
+![Screenshot (236)](https://user-images.githubusercontent.com/54878075/85973455-c341d980-b9a0-11ea-92a4-b4411eee95ac.jpg)
+![Screenshot (239)](https://user-images.githubusercontent.com/54878075/85973456-c3da7000-b9a0-11ea-9887-2b3bd9c2d909.jpg)
+![Screenshot (237)](https://user-images.githubusercontent.com/54878075/85973457-c3da7000-b9a0-11ea-8c7f-d45cb1b6f215.jpg)
+![Screenshot (234)](https://user-images.githubusercontent.com/54878075/85973458-c3da7000-b9a0-11ea-89e3-c2d862b4b220.jpg)
+![Screenshot (235)](https://user-images.githubusercontent.com/54878075/85973459-c4730680-b9a0-11ea-9686-8a9537002135.jpg)
